@@ -1,0 +1,64 @@
+body {
+  font-family: "Arial" sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  padding: 10px 20px;
+  height: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 2000px;
+  font-family: monospace;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-family: monospace;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.nav-links li a:hover {
+  color: pink;
+}
+
+.container {
+  height: calc(10vh - 20px);
+  background-color: beige;
+  display: flex;
+  font-family: monospace;
+}
+
+.content p {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  font-family: monospace;
+}
